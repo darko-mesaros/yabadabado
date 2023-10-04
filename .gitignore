@@ -9,4 +9,3 @@ cdk.out
 
 # Front End
 !resources/frontend/modern-retro/*.js
-resources/frontend/modern-retro/node_modules
