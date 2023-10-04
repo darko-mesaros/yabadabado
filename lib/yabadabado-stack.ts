@@ -40,7 +40,7 @@ export class YabadabadoStack extends cdk.Stack {
     const genLambda = new lambda.Function(this, 'genLambda',{
       runtime: lambda.Runtime.PYTHON_3_9,
       handler: 'handler.lambda_handler',
-      timeout: cdk.Duration.seconds(60),
+      timeout: cdk.Duration.seconds(120),
       environment: {
         'TABLE_NAME': table.tableName
       },
