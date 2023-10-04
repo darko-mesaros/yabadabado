@@ -5,6 +5,7 @@ function LoadingOverlay() {
     return (
         <div className="loading-overlay">
             <div className="loading-spinner"></div>
+            <div className="loading-text">Waiting for AI to do it's thing</div>
         </div>
     );
 }
@@ -51,6 +52,7 @@ function App() {
     const [error, setError] = useState(null);
 
     useEffect(() => {
+        document.title = "Yabadabado"
         // Replace with your API Gateway URL
         const apiUrl = 'https://iskq9sya59.execute-api.us-west-2.amazonaws.com/prod/software';
         fetchData(apiUrl, setData)
