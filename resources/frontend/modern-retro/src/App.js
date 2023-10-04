@@ -117,7 +117,8 @@ function App() {
                     onClose={() => setShowModal(false)} 
                 />
             }
-            <h1>AWS Services</h1>
+            <p>This application will take an AWS service of your choice, and provide you with a <b>name</b> and a <b>description</b> of a <i>fictional</i> enterprise software solution from the late 1980s that is sort-of equivalent to it. All thanks to the ✨magic ✨ of <a href="https://aws.amazon.com/bedrock/">Amazon Bedrock</a></p>
+          <h2>Choose an AWS Service:</h2>
             <table>
             <thead>
               <tr>
