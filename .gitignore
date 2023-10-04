@@ -6,3 +6,7 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# Front End
+!resources/frontend/modern-retro/*.js
+resources/frontend/modern-retro/node_modules
