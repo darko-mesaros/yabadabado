@@ -54,7 +54,7 @@ function App() {
     useEffect(() => {
         document.title = "Yabadabado"
         // Replace with your API Gateway URL
-        const apiUrl = 'https://iskq9sya59.execute-api.us-west-2.amazonaws.com/prod/software';
+        const apiUrl = 'https://5ke3ws3xea.execute-api.us-west-2.amazonaws.com/prod/software';
         fetchData(apiUrl, setData)
     }, []);
 
@@ -78,7 +78,7 @@ function App() {
     }
 
     const handleRowClick = (description) => {
-      const genUrl = 'https://iskq9sya59.execute-api.us-west-2.amazonaws.com/prod/software/generate';
+      const genUrl = 'https://5ke3ws3xea.execute-api.us-west-2.amazonaws.com/prod/software/generate';
       
       setLoading(true);
       fetch(genUrl, {
